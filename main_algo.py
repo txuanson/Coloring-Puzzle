@@ -1,13 +1,13 @@
 import numpy as np
 from pysat.solvers import Glucose3
 import itertools
-from read_input import *
+# from read_input import *
 import time
 
 
 SWAP_SIGN = -1
-board = readFile("input_10x10.txt")
-print(board)
+# board = readFile("input_10x10.txt")
+# print(board)
 
 # n là len(board) số dòng
 # m là len(board[0]) số cột
@@ -172,7 +172,7 @@ def Backtracking_coloring(board):
                 Backtracking_result[i][j] = 0
     return Backtracking_result
 
-
+# Code to count time
 # Brute Force
 # print('Brute Force')
 # t0 = time.time()
@@ -181,11 +181,11 @@ def Backtracking_coloring(board):
 # print('Time:', t1 - t0)
 
 # pySAT
-print('pySAT')
-t2 = time.time()
-print(pySAT_coloring(board))
-t3 = time.time()
-print('Time:', t3 - t2)
+# print('pySAT')
+# t2 = time.time()
+# print(pySAT_coloring(board))
+# t3 = time.time()
+# print('Time:', t3 - t2)
 
 # Backtracking
 # print('Backtracking')

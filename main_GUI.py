@@ -3,9 +3,9 @@ from tkinter import ttk
 from tkinter import filedialog
 import numpy as np
 import time
-from test import pySAT_coloring
-from test import BF_coloring
-from test import Backtracking_coloring
+from main_algo import pySAT_coloring
+from main_algo import BF_coloring
+from main_algo import Backtracking_coloring
 
 
 class GUI(Frame):
