@@ -64,7 +64,7 @@ class GUI(Frame):
         self.boardInput = np.array(lines_int)
 
     def checkType(self):
-        print(self.getAlgo.get())
+        # print(self.getAlgo.get())
         if self.getAlgo.get() == '1':
             t0 = time.time()
             self.time.configure(textvariable='Running')
